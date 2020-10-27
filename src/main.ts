@@ -1,3 +1,3 @@
-import Bar from "bar"
+import Bar from "bar/src"
 
-export const bar = new Bar()
+export const bar = new Bar(4)

@@ -2,6 +2,7 @@
   "name": "bug-tsc-double-substitution",
   "private": true,
   "scripts": {
+    "typegen": "npx typescript@next --build node_modules/foo",
     "test": "npx typescript@next --noEmit --traceResolution"
   }
 }
