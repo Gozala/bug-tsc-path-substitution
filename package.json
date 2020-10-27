@@ -1,0 +1,7 @@
+{
+  "name": "bug-tsc-double-substitution",
+  "private": true,
+  "scripts": {
+    "test": "npx typescript@next --noEmit --traceResolution"
+  }
+}
